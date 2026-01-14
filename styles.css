@@ -156,22 +156,31 @@ body {
   }
 }
 
-.form-wrapper {
-  margin-top: 2rem;
+/* CONTACT FORM FIX */
+.contact-form-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
-.form-wrapper iframe {
+/* Google Form iframe */
+.contact-form-wrapper iframe {
   width: 100%;
-  max-width: 100%;
-  border-radius: 8px;
-  background: #ffffff;
+  height: 850px;
+  border: none;
+  display: block;
 }
+
 
 @media (max-width: 768px) {
-  .form-wrapper iframe {
-    height: 1000px;
+  .contact-form-wrapper iframe {
+    height: 1100px;
   }
 }
+
 
 
 
