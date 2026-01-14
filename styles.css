@@ -155,3 +155,23 @@ body {
     font-size: 2rem;
   }
 }
+
+.form-wrapper {
+  margin-top: 2rem;
+}
+
+.form-wrapper iframe {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .form-wrapper iframe {
+    height: 1000px;
+  }
+}
+
+
+
